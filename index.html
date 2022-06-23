@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        let number1 = parseInt(prompt("Enter your first number"));
+        let number2 = parseInt(prompt("Enter your second number"));
+        let operator = prompt(" Enter an operator. Type '+' for addition, '-' for subtraction, 'x' for multiplication, '/' for division and '%' for operand");
+
+        if (operator === '+'){
+            alert(`Result is ${number1+number2}`)
+        }else if (operator === '-'){
+            alert(`Result is ${number1-number2}`)
+        }else if (operator === 'x'||operator === 'X'||operator === '*'){
+            alert(`Result is ${number1*number2}`)
+        }else if (operator === '/'){
+            alert(`Result is ${number1/number2}`)
+        }else if (operator === '%'){
+            alert(`Result is ${number1%number2}`)
+        }else {
+            alert('That operand is not valid try again.')
+        }
+    </script>
+    <title>Simple Calculator</title>
+</head>
+<body>
+    <h1 style="text-align: center;">This is a Calculator project</h1>
+</body>
+</html>
